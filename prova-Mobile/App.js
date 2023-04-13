@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = () => {
     // Lógica de validação de login aqui
 
-    // Simulando sucesso no login
+    // Simulando sucesso no login.
     setLoggedIn(true);
   };
 
