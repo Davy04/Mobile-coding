@@ -38,11 +38,11 @@ const App = () => {
       style={styles.suggestionItem}
       onPress={() => handleRemoveSuggestion(item.id)}
     >
-      <Ionicons name="trash-bin" size={24} color="red" />
+      <Ionicons name="trash-bin" size={24} color="#85DE5C" />
       <View style={styles.suggestionItemContent}>
         <Text style={styles.suggestionItemText}>{item.content}</Text>
         <View style={styles.suggestionItemInfo}>
-          <Text style={styles.suggestionItemInfoText}>Por: Nome do Usuário</Text>
+          <Text style={styles.suggestionItemInfoText}>Por: ViniCorneteiro</Text>
           <Text style={styles.suggestionItemInfoText}>Data: DD/MM/AAAA</Text>
         </View>
       </View>
@@ -53,7 +53,7 @@ const App = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Sugestões para o Clube</Text>
-        <Ionicons name="add-circle" size={28} color="#2e88ff" onPress={handleAddSuggestion} />
+        <Ionicons name="add-circle" size={28} color="#228B22" onPress={handleAddSuggestion} />
       </View>
       <ScrollView style={styles.suggestionsList}>
         <FlatList
@@ -69,7 +69,7 @@ const App = () => {
           value={inputText}
           placeholder="Digite sua sugestão"
         />
-        <Ionicons name="send" size={24} color="#2e88ff" onPress={handleAddSuggestion} />
+        <Ionicons name="send" size={24} color="#228B22" onPress={handleAddSuggestion} />
       </View>
     </View>
   );
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#fff',
+    backgroundColor: '#070C07',
   },
   header: {
     flexDirection: 'row',
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#228B22',
   },
   inputContainer: {
     flexDirection: 'row',
@@ -100,12 +100,13 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     height: 40,
-    borderColor: '#ccc',
+    borderColor: '#85DE5C',
     borderWidth: 1,
     borderRadius: 20,
     paddingLeft: 16,
     paddingRight: 16,
     marginRight: 8,
+    color: '#85DE5C'
   },
   suggestionsList: {
     flex: 1,
@@ -115,7 +116,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'center',
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: '#228B22',
     paddingBottom: 8,
     marginBottom: 8,
     },
@@ -125,7 +126,7 @@ const styles = StyleSheet.create({
     },
     suggestionItemText: {
     fontSize: 16,
-    color: '#333',
+    color: '#fff',
     },
     suggestionItemInfo: {
     flexDirection: 'row',
@@ -134,7 +135,7 @@ const styles = StyleSheet.create({
     },
     suggestionItemInfoText: {
     fontSize: 12,
-    color: '#666',
+    color: '#fff',
     },
     });
     
