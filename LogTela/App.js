@@ -46,7 +46,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#216416",
+    backgroundColor: "#AFF4C6",
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
@@ -63,20 +63,20 @@ const styles = StyleSheet.create({
 
   boxusuario: {
     flex: 1,
-    backgroundColor: "#216416",
+    backgroundColor: "#AFF4C6",
     alignItems: "center",
     justifyContent: "center",
     marginTop: 320,
   },
   boxsenha: {
     flex: 1,
-    backgroundColor: "#216416",
+    backgroundColor: "#AFF4C6",
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 320,
   },
   button: {
-    backgroundColor: 'yellow',
+    backgroundColor: '#D9D9D9',
     color: 'white',
     marginTop: 20
   }

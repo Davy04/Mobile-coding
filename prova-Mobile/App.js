@@ -4,7 +4,6 @@ import {
   Text,
   StyleSheet,
   TextInput,
-  Button,
   FlatList,
   ScrollView,
   TouchableOpacity,
@@ -53,7 +52,10 @@ const App = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Sugestões para o Clube</Text>
+<<<<<<< Updated upstream
         <Ionicons name="add-circle" size={28} color="#228B22" onPress={handleAddSuggestion} />
+=======
+>>>>>>> Stashed changes
       </View>
       <ScrollView style={styles.suggestionsList}>
         <FlatList
@@ -78,8 +80,13 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+<<<<<<< Updated upstream
     padding: 16,
     backgroundColor: '#070C07',
+=======
+    padding: 10,
+    backgroundColor: '#AFF4C6',
+>>>>>>> Stashed changes
   },
   header: {
     flexDirection: 'row',
@@ -88,6 +95,8 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   title: {
+    marginLeft: 64,
+    marginTop: 50,
     fontSize: 24,
     fontWeight: 'bold',
     color: '#228B22',
@@ -135,7 +144,11 @@ const styles = StyleSheet.create({
     },
     suggestionItemInfoText: {
     fontSize: 12,
+<<<<<<< Updated upstream
     color: '#fff',
+=======
+    color: 'gray',
+>>>>>>> Stashed changes
     },
     });
     
