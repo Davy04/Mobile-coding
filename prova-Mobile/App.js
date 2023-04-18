@@ -52,10 +52,7 @@ const App = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Sugestões para o Clube</Text>
-<<<<<<< Updated upstream
-        <Ionicons name="add-circle" size={28} color="#228B22" onPress={handleAddSuggestion} />
-=======
->>>>>>> Stashed changes
+
       </View>
       <ScrollView style={styles.suggestionsList}>
         <FlatList
@@ -80,13 +77,8 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-<<<<<<< Updated upstream
     padding: 16,
-    backgroundColor: '#070C07',
-=======
-    padding: 10,
     backgroundColor: '#AFF4C6',
->>>>>>> Stashed changes
   },
   header: {
     flexDirection: 'row',
@@ -135,7 +127,7 @@ const styles = StyleSheet.create({
     },
     suggestionItemText: {
     fontSize: 16,
-    color: '#fff',
+    color: 'black',
     },
     suggestionItemInfo: {
     flexDirection: 'row',
@@ -144,11 +136,6 @@ const styles = StyleSheet.create({
     },
     suggestionItemInfoText: {
     fontSize: 12,
-<<<<<<< Updated upstream
-    color: '#fff',
-=======
-    color: 'gray',
->>>>>>> Stashed changes
     },
     });
     
